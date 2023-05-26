@@ -1,23 +1,17 @@
 $(document).ready(function () {
 	const welcomeText = `
-	Welcome! This is an offline-capable Notepad which is a Progressive Web App.
+Welcome to NoteKeeper!
 
-	The app serves the following features:
+NoteKeeper is your go-to note-taking app designed to streamline your productivity. Capture your thoughts, ideas, and important information effortlessly, all in one place. With a user-friendly interface and powerful features, NoteKeeper helps you stay organized and focused.
 
-	- Write notes which are then saved to the localStorage.
-	- Installable on supported browsers for offline usage.
-	- "Add To Home Screen" feature on Android-supported devices to launch the app from the home screen.
-	- Dark mode.
-	- Privacy-focused - We'll never collect your precious data.
-	- Light-weight - Loads almost instantly.
-	- It's open-source!
+Create, edit, and organize your notes with ease. Customize your formatting, use folders and tags to keep everything in order, and set reminders to stay on track. But that's not all - upgrade to NoteKeeper+ for advanced features that take your note-taking to the next level.
 
-	CAUTION: Since the app uses the browser's localStorage to store your notes, 
-	it's recommended that you take a backup of your notes more often using the 
-	"Download Notes" button or by pressing the "Ctrl/Cmd + S" keys.
+With NoteKeeper+, you can enjoy additional benefits such as cloud sync across devices, collaborative sharing, and priority customer support. Unlock the full potential of NoteKeeper and make the most of your productivity.
 
-	** Start writing your notes **
-	`;
+Download NoteKeeper now and experience the convenience of organized note-taking. Upgrade to NoteKeeper+ for an enhanced note-taking experience with exclusive features. Start taking your productivity to new heights today!
+
+Happy note-keeping!
+The NoteKeeper Team`;
 
 	const darkmodeText = 'Enable dark mode [Ctrl/Cmd + M]';
 	const lightmodeText = 'Enable light mode [Ctrl/Cmd + M]';
